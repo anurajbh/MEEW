@@ -1,20 +1,21 @@
 fileFormatVersion: 2
-guid: f373b02990b73ae4293d2c9d60eb0c70
+guid: a32ec3acaf0fa3040bd33a211cf6ddc6
 TextureImporter:
   fileIDToRecycleName:
-    21300000: green-jump_0
-    21300002: green-jump_1
-    21300004: green-jump_2
-    21300006: green-jump_3
-    21300008: green-jump_4
-    21300010: green-jump_5
-    21300012: green-jump_6
-    21300014: green-jump_7
-    21300016: green-jump_8
-    21300018: green-jump_9
-    21300020: green-jump_10
-    21300022: green-jump_11
-    21300024: green-jump_12
+    21300000: green-shoot_0
+    21300002: green-shoot_1
+    21300004: green-shoot_2
+    21300006: green-shoot_3
+    21300008: green-shoot_4
+    21300010: green-shoot_5
+    21300012: green-shoot_6
+    21300014: green-shoot_7
+    21300016: green-shoot_8
+    21300018: green-shoot_9
+    21300020: green-shoot_10
+    21300022: green-shoot_11
+    21300024: green-shoot_12
+    21300026: green-shoot_13
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -73,7 +74,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -84,7 +85,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -95,7 +96,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: WebGL
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -108,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: green-jump_0
+      name: green-shoot_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        y: 1088.5
+        width: 832.875
+        height: 1088.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,19 +123,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73f9cb14acdfe454686ad52aac3b9a65
+      spriteID: b8ea5a051b95f4c46a45cd484a62051b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_1
+      name: green-shoot_1
       rect:
         serializedVersion: 2
-        x: 852
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 832
+        y: 1088.5
+        width: 832.875
+        height: 1088.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cff49325d66473f4882a28b7c5c32258
+      spriteID: 04dcfc2d6c2517e418b05e1e7998ef15
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_2
+      name: green-shoot_2
       rect:
         serializedVersion: 2
-        x: 1704
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 1664
+        y: 1088.5
+        width: 832.875
+        height: 1088.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,19 +163,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b505430fe0091f345a8fcb32422c0928
+      spriteID: 3cf8fd41644f0e542b0a5f6212a5b708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_3
+      name: green-shoot_3
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 2496
+        y: 1088.5
+        width: 832.875
+        height: 1088.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,19 +183,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8bb130bd1dd0734f8c5787f2481cf80
+      spriteID: f91097362fbe402458467a4ef48a6949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_4
+      name: green-shoot_4
       rect:
         serializedVersion: 2
-        x: 3408
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 3328
+        y: 1088.5
+        width: 832.875
+        height: 1088.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,19 +203,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b03b1f3481bb48843a425118aa2e1375
+      spriteID: f6c5e78846c87aa43bf916a49485edd4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_5
+      name: green-shoot_5
       rect:
         serializedVersion: 2
-        x: 4260
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 4160
+        y: 1088.5
+        width: 832.875
+        height: 1088.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,19 +223,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 484234bf24bb5414bb09d82b472bd5dc
+      spriteID: d55a02ec20c8d1c429d5b9ae2cd5b27e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_6
+      name: green-shoot_6
       rect:
         serializedVersion: 2
-        x: 5112
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 4992
+        y: 1088.5
+        width: 832.875
+        height: 1088.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,19 +243,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76625a4369c59954fb493d4a2b5458e7
+      spriteID: aed02199f2b045244ade113c62f000b7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_7
+      name: green-shoot_7
       rect:
         serializedVersion: 2
-        x: 5964
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 5824
+        y: 1088.5
+        width: 832.875
+        height: 1088.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,19 +263,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f00418da39b117c41ad5466137653b85
+      spriteID: 70c3546dc2c75f34fbea15dd833c031b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_8
+      name: green-shoot_8
       rect:
         serializedVersion: 2
         x: 0
         y: 0.5
-        width: 852.625
-        height: 1053.5
+        width: 832.875
+        height: 1088.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,19 +283,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94c932d92b484804caf9565b97acaf6a
+      spriteID: 73aa1c9a6260fd148869c474d4acadff
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_9
+      name: green-shoot_9
       rect:
         serializedVersion: 2
-        x: 852
+        x: 832
         y: 0.5
-        width: 852.625
-        height: 1053.5
+        width: 832.875
+        height: 1088.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,19 +303,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4d58c70152c2714083fcf18785e891f
+      spriteID: 06b69a2d6e3452f4982baac53c198e05
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_10
+      name: green-shoot_10
       rect:
         serializedVersion: 2
-        x: 1704
+        x: 1664
         y: 0.5
-        width: 852.625
-        height: 1053.5
+        width: 832.875
+        height: 1088.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,19 +323,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0731098e37b5b6a4e8959c627379734c
+      spriteID: 572f152900dcec34ca9492775db51324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_11
+      name: green-shoot_11
       rect:
         serializedVersion: 2
-        x: 2556
+        x: 2496
         y: 0.5
-        width: 852.625
-        height: 1053.5
+        width: 832.875
+        height: 1088.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,19 +343,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b4e5c813bd4ff64cb1d1be8781ced8b
+      spriteID: 58430911e20328241bbe09a08cd8fc2e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_12
+      name: green-shoot_12
       rect:
         serializedVersion: 2
-        x: 5964
+        x: 3328
         y: 0.5
-        width: 852.625
-        height: 1053.5
+        width: 832.875
+        height: 1088.5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,7 +363,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a96f2c4088ec4d14b8911b4c90e56435
+      spriteID: dcb696a25791b7249888469c3ef32063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-shoot_13
+      rect:
+        serializedVersion: 2
+        x: 5824
+        y: 0.5
+        width: 832.875
+        height: 1088.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b86ae2252461c4285499c36fbdc5d5
       vertices: []
       indices: 
       edges: []
@@ -370,7 +391,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c167abb1413e97d4c8eaa09c8eb01d22
+    spriteID: b32bd23369e0fd6408a8bf54a2d9a4c3
     vertices: []
     indices: 
     edges: []

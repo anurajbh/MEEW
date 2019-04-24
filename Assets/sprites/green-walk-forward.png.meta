@@ -1,20 +1,27 @@
 fileFormatVersion: 2
-guid: f373b02990b73ae4293d2c9d60eb0c70
+guid: 9b152a132510aef40a5f46574075981a
 TextureImporter:
   fileIDToRecycleName:
-    21300000: green-jump_0
-    21300002: green-jump_1
-    21300004: green-jump_2
-    21300006: green-jump_3
-    21300008: green-jump_4
-    21300010: green-jump_5
-    21300012: green-jump_6
-    21300014: green-jump_7
-    21300016: green-jump_8
-    21300018: green-jump_9
-    21300020: green-jump_10
-    21300022: green-jump_11
-    21300024: green-jump_12
+    21300000: green-walk-forward_0
+    21300002: green-walk-forward_1
+    21300004: green-walk-forward_2
+    21300006: green-walk-forward_3
+    21300008: green-walk-forward_4
+    21300010: green-walk-forward_5
+    21300012: green-walk-forward_6
+    21300014: green-walk-forward_7
+    21300016: green-walk-forward_8
+    21300018: green-walk-forward_9
+    21300020: green-walk-forward_10
+    21300022: green-walk-forward_11
+    21300024: green-walk-forward_12
+    21300026: green-walk-forward_13
+    21300028: green-walk-forward_14
+    21300030: green-walk-forward_15
+    21300032: green-walk-forward_16
+    21300034: green-walk-forward_17
+    21300036: green-walk-forward_18
+    21300038: green-walk-forward_19
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -73,7 +80,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -84,7 +91,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -95,7 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: WebGL
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -108,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: green-jump_0
+      name: green-walk-forward_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        y: 2115.3335
+        width: 904.125
+        height: 1057.6666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,19 +129,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73f9cb14acdfe454686ad52aac3b9a65
+      spriteID: 9291267fbf90eb14a8d1af19c61da87b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_1
+      name: green-walk-forward_1
       rect:
         serializedVersion: 2
-        x: 852
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 904
+        y: 2115.3335
+        width: 904.125
+        height: 1057.6666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,19 +149,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cff49325d66473f4882a28b7c5c32258
+      spriteID: 34b33ec8a40dc764c886ba9697929647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_2
+      name: green-walk-forward_2
       rect:
         serializedVersion: 2
-        x: 1704
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 1808
+        y: 2115.3335
+        width: 904.125
+        height: 1057.6666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,19 +169,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b505430fe0091f345a8fcb32422c0928
+      spriteID: 932b639b3a3314f43968f79d461459d5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_3
+      name: green-walk-forward_3
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 2712
+        y: 2115.3335
+        width: 904.125
+        height: 1057.6666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,19 +189,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8bb130bd1dd0734f8c5787f2481cf80
+      spriteID: 2f5364ccb3355a64081c155eba1cf658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_4
+      name: green-walk-forward_4
       rect:
         serializedVersion: 2
-        x: 3408
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 3616
+        y: 2115.3335
+        width: 904.125
+        height: 1057.6666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,19 +209,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b03b1f3481bb48843a425118aa2e1375
+      spriteID: b4dc7a4566b220549b5a9aca80479965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_5
+      name: green-walk-forward_5
       rect:
         serializedVersion: 2
-        x: 4260
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 4520
+        y: 2115.3335
+        width: 904.125
+        height: 1057.6666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,19 +229,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 484234bf24bb5414bb09d82b472bd5dc
+      spriteID: 4aa706effbceca84b93b9d00a469956f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_6
+      name: green-walk-forward_6
       rect:
         serializedVersion: 2
-        x: 5112
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 5424
+        y: 2115.3335
+        width: 904.125
+        height: 1057.6666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,19 +249,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76625a4369c59954fb493d4a2b5458e7
+      spriteID: 84ada8e870f6b7e40bf3eb29f8f76bff
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_7
+      name: green-walk-forward_7
       rect:
         serializedVersion: 2
-        x: 5964
-        y: 1053.5
-        width: 852.625
-        height: 1053.5
+        x: 6328
+        y: 2115.3335
+        width: 904.125
+        height: 1057.6666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,19 +269,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f00418da39b117c41ad5466137653b85
+      spriteID: 36c8b04c079f06642809d27e60e1073b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_8
+      name: green-walk-forward_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 0.5
-        width: 852.625
-        height: 1053.5
+        y: 1058.3334
+        width: 904.125
+        height: 1057.6666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,19 +289,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94c932d92b484804caf9565b97acaf6a
+      spriteID: 11e974d843fd28648a4be9879bcc4b4e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_9
+      name: green-walk-forward_9
       rect:
         serializedVersion: 2
-        x: 852
-        y: 0.5
-        width: 852.625
-        height: 1053.5
+        x: 904
+        y: 1058.3334
+        width: 904.125
+        height: 1057.6666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,19 +309,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4d58c70152c2714083fcf18785e891f
+      spriteID: 9be8f02a01ce6b749afd5ba577d04f32
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_10
+      name: green-walk-forward_10
       rect:
         serializedVersion: 2
-        x: 1704
-        y: 0.5
-        width: 852.625
-        height: 1053.5
+        x: 1808
+        y: 1058.3334
+        width: 904.125
+        height: 1057.6666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,19 +329,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0731098e37b5b6a4e8959c627379734c
+      spriteID: 31aa09cb9202e1d40a9caffd75d78c00
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_11
+      name: green-walk-forward_11
       rect:
         serializedVersion: 2
-        x: 2556
-        y: 0.5
-        width: 852.625
-        height: 1053.5
+        x: 2712
+        y: 1058.3334
+        width: 904.125
+        height: 1057.6666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,19 +349,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b4e5c813bd4ff64cb1d1be8781ced8b
+      spriteID: 0ca3ac5f6ad05d64395c4b505a12390e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: green-jump_12
+      name: green-walk-forward_12
       rect:
         serializedVersion: 2
-        x: 5964
-        y: 0.5
-        width: 852.625
-        height: 1053.5
+        x: 3616
+        y: 1058.3334
+        width: 904.125
+        height: 1057.6666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,7 +369,147 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a96f2c4088ec4d14b8911b4c90e56435
+      spriteID: feff74d5db09e1144b2c8262dc1a9a99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-walk-forward_13
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 1058.3334
+        width: 904.125
+        height: 1057.6666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88432cacc1369364b92fc396a585c6a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-walk-forward_14
+      rect:
+        serializedVersion: 2
+        x: 5424
+        y: 1058.3334
+        width: 904.125
+        height: 1057.6666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08f9390b0ada6241a52b59da185fea8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-walk-forward_15
+      rect:
+        serializedVersion: 2
+        x: 6328
+        y: 1058.3334
+        width: 904.125
+        height: 1057.6666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c463a371360a7b140a4b085ba96f51f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-walk-forward_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.333374
+        width: 904.125
+        height: 1057.6666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59f69917042a3f449e169a3c6d33063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-walk-forward_17
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1.333374
+        width: 904.125
+        height: 1057.6666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea203253591866418986925fab9cbdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-walk-forward_18
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 1.333374
+        width: 904.125
+        height: 1057.6666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef9c12fbeb6e0f4f94eecfc47907865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-walk-forward_19
+      rect:
+        serializedVersion: 2
+        x: 6328
+        y: 1.333374
+        width: 904.125
+        height: 1057.6666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb2d78fb54be194a8a3adc580ac218e
       vertices: []
       indices: 
       edges: []
@@ -370,7 +517,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c167abb1413e97d4c8eaa09c8eb01d22
+    spriteID: 414d38eb49a334643b46be8125ebac5d
     vertices: []
     indices: 
     edges: []

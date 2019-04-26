@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets._2D;
@@ -7,32 +8,44 @@ using UnityStandardAssets._2D;
 public class ShootingParticle : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] ParticleSystem pewPew;
+
     private Animator m_Anim;
-    [SerializeField] float timer;
+    public GameObject bullet;
+    private float bulletSpeed = 1000f;
+    //float time;
+    //[SerializeField] float timer = 1f;
     void Awake()
     {
-        timer = 0f;
+        //time = 0f;
         m_Anim = GetComponent<Animator>();
     }
 
     private void Update()
     {
-        var emission = pewPew.emission;
-        if(m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Pew"))
+        if (m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Pew"))
         {
-            emission.enabled = true;
+            //time += Time.deltaTime;
+            //if (time >= timer)
+            //{
+            FireBullet();
+            //}     
         }
-        /*there was a delay between the user pressing the button and the actual shooting beginning, so to counter the problem of emission stopping
-          instantly, we add a timer to stop it a short while after the user lets go*/ 
-        else
-        {
-            timer += Time.deltaTime;
-            if (timer >0.5f)
-            {                
-                emission.enabled = false;
-                timer = 0f;
-            }
-        }
+        //time = 0f;
+    }
+
+    private void FireBullet()
+    {
+        //Clone of the bullet
+        GameObject Clone;
+
+        //spawning the bullet at position
+        Clone = (Instantiate(bullet, transform.position, transform.rotation)) as GameObject;
+        Debug.Log("Bullet is found");
+
+
+        //add force to the spawned objected
+        Clone.GetComponent<Rigidbody2D>().AddForce(transform.right*bulletSpeed);
+
+        Debug.Log("Force is added");
     }
 }

@@ -8,6 +8,7 @@ public class SceneLoader : MonoBehaviour
     // Start is called before the first frame update
     Scene scene;
     int sceneIndex;
+    [SerializeField] GameObject musicPlayer;
     void Start()
     {
         scene = SceneManager.GetActiveScene();
@@ -20,6 +21,7 @@ public class SceneLoader : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Return))
         {
             SceneManager.LoadScene(sceneIndex + 1);
+            DontDestroyOnLoad(musicPlayer);
         }
     }
 }

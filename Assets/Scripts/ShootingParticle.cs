@@ -57,8 +57,8 @@ public class ShootingParticle : MonoBehaviour
 
         //check where player is facing
         CheckPlayerDirection(Clone);
-
-
+        //destroy the bullets after they are shot
+        Destroy(Clone, 2f);
         Debug.Log("Force is added");
     }
 

@@ -11,6 +11,7 @@ public class Platform : MonoBehaviour
     void Start()
     {
         startPos = transform.position;
+        
     }
 
     // Update is called once per frame

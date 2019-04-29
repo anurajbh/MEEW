@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class HealthControl : MonoBehaviour
 {
-    [SerializeField] int health;
-
+   [SerializeField] int health;
+    ReloadScene reload;
     void Damage()
     {
         if (gameObject.tag == "Player")
@@ -26,6 +26,10 @@ public class HealthControl : MonoBehaviour
             health--;
         }
     }
+    private void Awake()
+    {
+        reload = GetComponent<ReloadScene>();
+    }
 
     private void Update()
     {
@@ -37,8 +41,7 @@ public class HealthControl : MonoBehaviour
             }
             if (gameObject.tag == "Player")
             {
-                print("we need to restart level here");
-                //to-do Restart
+                reload.LoadScene();
             }
         }
     }
@@ -52,11 +55,6 @@ public class HealthControl : MonoBehaviour
         if (gameObject.tag == "Player")
             if (collision.gameObject.tag == "Enemy")
                 Damage();
-    }
-    private void OnParticleCollision(GameObject other)
-    {
-        print("Collided");
-        Damage();
     }
 
 }

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets._2D;
 //shooting module
-[RequireComponent(typeof(Platformer2DUserControl))]
+
 public class ShootingParticle : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -12,25 +12,37 @@ public class ShootingParticle : MonoBehaviour
     private Animator m_Anim;
     public GameObject bullet;
     private float bulletSpeed = 1000f;
-    //float time;
-    //[SerializeField] float timer = 1f;
+    [SerializeField] float time;
+    [SerializeField] float timer = 10f;
+    PlatformerCharacter2D platformerCharacter2D;
     void Awake()
     {
-        //time = 0f;
+        time = 0f;
         m_Anim = GetComponent<Animator>();
+        platformerCharacter2D = GetComponent<PlatformerCharacter2D>();
+        
     }
 
     private void Update()
     {
-        if (m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Pew"))
+        BulletCheckSequence();
+    }
+
+    private void BulletCheckSequence()
+    {
+        if (m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Pew"))//to check if player is firing
         {
-            //time += Time.deltaTime;
-            //if (time >= timer)
-            //{
-            FireBullet();
-            //}     
+            time += Time.deltaTime;
+            if (time < 0.02f)
+            {
+                FireBullet();
+            }
+
         }
-        //time = 0f;
+        else
+        {
+            time = 0f;
+        } 
     }
 
     private void FireBullet()
@@ -40,12 +52,26 @@ public class ShootingParticle : MonoBehaviour
 
         //spawning the bullet at position
         Clone = (Instantiate(bullet, transform.position, transform.rotation)) as GameObject;
-        Debug.Log("Bullet is found");
+        Physics2D.IgnoreCollision(Clone.GetComponent<Collider2D>(), GetComponent<Collider2D>());
 
 
-        //add force to the spawned objected
-        Clone.GetComponent<Rigidbody2D>().AddForce(transform.right*bulletSpeed);
+        //check where player is facing
+        CheckPlayerDirection(Clone);
+
 
         Debug.Log("Force is added");
+    }
+
+    private void CheckPlayerDirection(GameObject Clone)
+    {
+        if(platformerCharacter2D.m_FacingRight)
+        {
+            Clone.GetComponent<Rigidbody2D>().AddForce(transform.right * bulletSpeed);
+        }
+        else
+        {
+            Clone.GetComponent<Rigidbody2D>().AddForce(-transform.right * bulletSpeed);
+        }
+        
     }
 }

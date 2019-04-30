@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class HealthControl : MonoBehaviour
 {
    [SerializeField] int health;
+    AudioSource aud;
     ReloadScene reload;
     void Damage()
     {
@@ -37,13 +39,30 @@ public class HealthControl : MonoBehaviour
         {
             if (gameObject.tag != "Player")
             {
-                gameObject.SetActive(false);
+                PlayDeathSound();
+                Invoke("KillEnemy", 0.5f);
             }
             if (gameObject.tag == "Player")
             {
                 reload.LoadScene();
             }
         }
+    }
+
+    private void KillEnemy()
+    {
+        gameObject.SetActive(false);
+    }
+
+    private void PlayDeathSound()
+    {
+        aud = GetComponent<AudioSource>();
+        aud.enabled = true;
+        if (!aud.isPlaying)
+        {
+            aud.Play();
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
